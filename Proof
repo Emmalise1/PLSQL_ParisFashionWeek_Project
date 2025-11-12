@@ -1,0 +1,353 @@
+
+PL/SQL procedure successfully completed.
+
+
+PL/SQL procedure successfully completed.
+
+
+PL/SQL procedure successfully completed.
+
+
+PL/SQL procedure successfully completed.
+
+
+Table FASHION_BRANDS created.
+
+
+PL/SQL procedure successfully completed.
+
+
+PL/SQL procedure successfully completed.
+
+
+Table FASHION_BRANDS created.
+
+
+Table BUDGET_ESCALATION_LOG created.
+
+
+PL/SQL procedure successfully completed.
+
+
+PL/SQL procedure successfully completed.
+
+
+Table FASHION_BRANDS created.
+
+
+Table BUDGET_ESCALATION_LOG created.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+Substitution cancelled
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+Commit complete.
+
+
+PL/SQL procedure successfully completed.
+
+
+PL/SQL procedure successfully completed.
+
+
+Table FASHION_BRANDS created.
+
+
+Table BUDGET_ESCALATION_LOG created.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+Substitution cancelled
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+Commit complete.
+
+=== PARIS FASHION WEEK - BRAND AUDIT ===
+
+Processing: Chanel
+   -> Heritage brand detected. Initiating protocol...
+   *** PROTOCOL: Priority runway slot assigned.
+   RESULT: On Budget | **HERITAGE BRAND**
+
+Processing: Dior
+   -> Budget overrun detected. Initiating escalation...
+   *** PROTOCOL: Escalated to Finance Committee.
+   RESULT: **OVER BUDGET**
+
+Processing: Gucci
+   RESULT: On Budget
+
+Processing: Versace
+   -> Budget overrun detected. Initiating escalation...
+   *** PROTOCOL: Escalated to Finance Committee.
+   RESULT: **OVER BUDGET**
+
+Processing: Zara
+   -> Budget overrun detected. Initiating escalation...
+   *** PROTOCOL: Escalated to Finance Committee.
+   RESULT: **OVER BUDGET**
+
+=== Audit Complete ===
+
+
+PL/SQL procedure successfully completed.
+
+
+PL/SQL procedure successfully completed.
+
+
+PL/SQL procedure successfully completed.
+
+
+Table FASHION_BRANDS created.
+
+
+Table BUDGET_ESCALATION_LOG created.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+Substitution cancelled
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+Commit complete.
+
+=== PARIS FASHION WEEK - BRAND AUDIT ===
+
+Processing: Chanel
+   -> Heritage brand detected. Initiating protocol...
+   *** PROTOCOL: Priority runway slot assigned.
+   RESULT: On Budget | **HERITAGE BRAND**
+
+Processing: Dior
+   -> Budget overrun detected. Initiating escalation...
+   *** PROTOCOL: Escalated to Finance Committee.
+   RESULT: **OVER BUDGET**
+
+Processing: Gucci
+   RESULT: On Budget
+
+Processing: Versace
+   -> Budget overrun detected. Initiating escalation...
+   *** PROTOCOL: Escalated to Finance Committee.
+   RESULT: **OVER BUDGET**
+
+Processing: Zara
+   -> Budget overrun detected. Initiating escalation...
+   *** PROTOCOL: Escalated to Finance Committee.
+   RESULT: **OVER BUDGET**
+
+=== Audit Complete ===
+
+
+PL/SQL procedure successfully completed.
+
+
+  BRAND_ID BRAND_NAME                                                                                           COUNTRY                                            YEAR_FOUNDED ALLOCATED_BUDGET ACTUAL_SPEND BUDGET_DIFFERENCE
+---------- ---------------------------------------------------------------------------------------------------- -------------------------------------------------- ------------ ---------------- ------------ -----------------
+         1 Chanel                                                                                               France                                                     1909          2000000      1950000            -50000
+         2 Dior                                                                                                 France                                                     1946          1800000      2200000            400000
+         3 Gucci                                                                                                Italy                                                      1921          1700000      1650000            -50000
+         4 Versace                                                                                              Italy                                                      1978          1600000      1750000            150000
+         5 Zara                                                                                                 Spain                                                      1975           800000       950000            150000
+
+
+PL/SQL procedure successfully completed.
+
+
+PL/SQL procedure successfully completed.
+
+
+Table FASHION_BRANDS created.
+
+
+Table BUDGET_ESCALATION_LOG created.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+Substitution cancelled
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+Commit complete.
+
+=== PARIS FASHION WEEK - BRAND AUDIT ===
+
+Processing: Chanel
+   -> Heritage brand detected. Initiating protocol...
+   *** PROTOCOL: Priority runway slot assigned.
+   RESULT: On Budget | **HERITAGE BRAND**
+
+Processing: Dior
+   -> Budget overrun detected. Initiating escalation...
+   *** PROTOCOL: Escalated to Finance Committee.
+   RESULT: **OVER BUDGET**
+
+Processing: Gucci
+   RESULT: On Budget
+
+Processing: Versace
+   -> Budget overrun detected. Initiating escalation...
+   *** PROTOCOL: Escalated to Finance Committee.
+   RESULT: **OVER BUDGET**
+
+Processing: Zara
+   -> Budget overrun detected. Initiating escalation...
+   *** PROTOCOL: Escalated to Finance Committee.
+   RESULT: **OVER BUDGET**
+
+=== Audit Complete ===
+
+
+PL/SQL procedure successfully completed.
+
+
+  BRAND_ID BRAND_NAME                                                                                           COUNTRY                                            YEAR_FOUNDED ALLOCATED_BUDGET ACTUAL_SPEND BUDGET_DIFFERENCE
+---------- ---------------------------------------------------------------------------------------------------- -------------------------------------------------- ------------ ---------------- ------------ -----------------
+         1 Chanel                                                                                               France                                                     1909          2000000      1950000            -50000
+         2 Dior                                                                                                 France                                                     1946          1800000      2200000            400000
+         3 Gucci                                                                                                Italy                                                      1921          1700000      1650000            -50000
+         4 Versace                                                                                              Italy                                                      1978          1600000      1750000            150000
+         5 Zara                                                                                                 Spain                                                      1975           800000       950000            150000
+
+
+    LOG_ID BRAND_NAME                                                                                           OVERRUN_AMOUNT LOG_DATE 
+---------- ---------------------------------------------------------------------------------------------------- -------------- ---------
+         1 Dior                                                                                                         400000 12-NOV-25
+         3 Zara                                                                                                         150000 12-NOV-25
+         2 Versace                                                                                                      150000 12-NOV-25
+
+
+PL/SQL procedure successfully completed.
+
+
+PL/SQL procedure successfully completed.
+
+
+Table FASHION_BRANDS created.
+
+
+Table BUDGET_ESCALATION_LOG created.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+Substitution cancelled
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+Commit complete.
+
+=== PARIS FASHION WEEK - BRAND AUDIT ===
+
+Processing: Chanel
+   -> Heritage brand detected. Initiating protocol...
+   *** PROTOCOL: Priority runway slot assigned.
+   RESULT: On Budget | **HERITAGE BRAND**
+
+Processing: Dior
+   -> Budget overrun detected. Initiating escalation...
+   *** PROTOCOL: Escalated to Finance Committee.
+   RESULT: **OVER BUDGET**
+
+Processing: Gucci
+   RESULT: On Budget
+
+Processing: Versace
+   -> Budget overrun detected. Initiating escalation...
+   *** PROTOCOL: Escalated to Finance Committee.
+   RESULT: **OVER BUDGET**
+
+Processing: Zara
+   -> Budget overrun detected. Initiating escalation...
+   *** PROTOCOL: Escalated to Finance Committee.
+   RESULT: **OVER BUDGET**
+
+=== Audit Complete ===
+
+
+PL/SQL procedure successfully completed.
+
+
+  BRAND_ID BRAND_NAME                                                                                           COUNTRY                                            YEAR_FOUNDED ALLOCATED_BUDGET ACTUAL_SPEND BUDGET_DIFFERENCE
+---------- ---------------------------------------------------------------------------------------------------- -------------------------------------------------- ------------ ---------------- ------------ -----------------
+         1 Chanel                                                                                               France                                                     1909          2000000      1950000            -50000
+         2 Dior                                                                                                 France                                                     1946          1800000      2200000            400000
+         3 Gucci                                                                                                Italy                                                      1921          1700000      1650000            -50000
+         4 Versace                                                                                              Italy                                                      1978          1600000      1750000            150000
+         5 Zara                                                                                                 Spain                                                      1975           800000       950000            150000
+
+
+    LOG_ID BRAND_NAME                                                                                           OVERRUN_AMOUNT LOG_DATE 
+---------- ---------------------------------------------------------------------------------------------------- -------------- ---------
+         1 Dior                                                                                                         400000 12-NOV-25
+         3 Zara                                                                                                         150000 12-NOV-25
+         2 Versace                                                                                                      150000 12-NOV-25
+
+
+TOTAL_BRANDS HERITAGE_BRANDS OVER_BUDGET_BRANDS TOTAL_ALLOCATED_BUDGET TOTAL_ACTUAL_SPEND TOTAL_OVERRUN
+------------ --------------- ------------------ ---------------------- ------------------ -------------
+           5               1                  3                7900000            8500000        600000
+
